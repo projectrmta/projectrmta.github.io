@@ -1,8 +1,8 @@
 {
   "name": "Rental Motor Tulungagung",
-  "short_name": "Rental Motor Tulungagung",
-  "theme_color": "#21f395",
-  "background_color": "#21f395",
+  "short_name": "RBMotorRent",
+  "theme_color": "#59dcac",
+  "background_color": "#59dcac",
   "display": "standalone",
   "Scope": "/",
   "start_url": "https://rentalmotortulungagung.com/",
