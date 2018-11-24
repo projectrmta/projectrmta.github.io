@@ -12,7 +12,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1.0">
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+    <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
     {% include amp-accordion.html %} {% include amp-form.html %} {% include amp-sidebar.html %} {% include amp-boilerplate.html %} {% include amp-custom-uncss.html %}
 </head>
 
@@ -495,6 +495,10 @@
                 </div>
             </div>
         </div>
+        <amp-install-serviceworker src="/sw.js" 
+        data-iframe-src="https://rentalmotortulungagung.com/sw.html" 
+        layout="nodisplay">
+        </amp-install-serviceworker>
     </footer>
 </body>
 
